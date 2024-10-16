@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: .4s;
+}
+
+
+#header {
+    padding: 20px 0;
+    background: lightskyblue;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    font-size: 35px;
+    font-weight: 600;
+    color: black;
+}
+
+.header-navbar a {
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0 25px;
+    color: blue;
+}
+
+.header-buttons button {
+    font-size: 20px;
+    font-weight: 400;
+    color: darkblue;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background: transparent;
+    border: 2px solid darkblue;
+}
+
+
+#hero {
+    padding: 100px 0;
+    background: lightslategrey;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text {
+    padding: 0 30px;
+}
+
+.hero-text h1{
+    font-size: 45px;
+    font-weight: 600;
+    color: darkblue;
+    padding-bottom: 25px;
+}
+
+.hero-text p {
+    font-size: 25px;
+    font-weight: 400;
+    color: darkblue;
+}
+
+#footer {
+    padding: 100px 0;
+    background: aquamarine;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.footer h1 {
+    font-size: 45px;
+    font-weight: 500;
+    color: black
+}
+
+.footer-navbar-one {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-navbar-one a {
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    padding: 15px 0;
+
+}
+
+.footer-navbar-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-navbar-two a {
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    padding: 15px 0;
+}
